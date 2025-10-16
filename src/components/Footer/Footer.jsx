@@ -3,7 +3,14 @@ import React from "react";
 const Footer = () => {
   return (
     <div>
-      <h1>This is Footer</h1>
+      <footer className="footer sm:footer-horizontal footer-center bg-base-300 text-base-content p-4">
+        <aside>
+          <p>
+            Copyright © {new Date().getFullYear()} - All right reserved by
+            ByteBlaze
+          </p>
+        </aside>
+      </footer>
     </div>
   );
 };
